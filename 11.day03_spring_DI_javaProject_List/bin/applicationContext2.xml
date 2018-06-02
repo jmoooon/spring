@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.3.xsd">
+
+	<bean id="collectionBean" class="org.comstudy21.saram.di.CollectionBean">
+		<property name="saramSet">
+			<set value-type="java.lang.String">
+				<value>박원순 | 서울시 | 1번</value>
+				<value>김문수 | 서울시 | 2번</value>
+				<value>이재명 | 경기도 | 1번</value>
+				<value>남경필 | 경기도 | 2번</value>
+			</set>
+		</property>
+		
+		<property name="saramMap">
+			<map key-type="java.lang.String" value-type="java.lang.String">
+				<entry key="박원순">
+					<value>1번</value>
+				</entry>
+				<entry key="김문수">
+					<value>2번</value>
+				</entry>
+				<entry key="이재명">
+					<value>1번</value>
+				</entry>
+				<entry key="남경필">
+					<value>2번</value>
+				</entry>
+			</map>
+		</property>
+		
+		<property name="saramProp">
+			<props>
+				<prop key="박">박원순 | 서울시 | 1번</prop>
+				<prop key="김">김문수 | 서울시 | 2번</prop>
+				<prop key="이">이재명 | 경기도 | 1번</prop>
+				<prop key="남">남경필 | 경기도 | 2번</prop>
+			</props>
+		</property>
+	</bean>
+	
+
+</beans>

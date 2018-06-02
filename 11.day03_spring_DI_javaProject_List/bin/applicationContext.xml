@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.3.xsd">
+
+	<bean id="saram1" class="org.comstudy21.saram.model.Saram">
+		<constructor-arg value="Kim"></constructor-arg>
+		<constructor-arg value="gildong"></constructor-arg>
+		<constructor-arg value="33"></constructor-arg>
+	</bean>
+	<bean id="saram2" class="org.comstudy21.saram.model.Saram">
+		<constructor-arg value="Park"></constructor-arg>
+		<constructor-arg value="gildong"></constructor-arg>
+		<constructor-arg value="33"></constructor-arg>
+	</bean>
+	<bean id="saram3" class="org.comstudy21.saram.model.Saram">
+		<constructor-arg value="Min"></constructor-arg>
+		<constructor-arg value="gildong"></constructor-arg>
+		<constructor-arg value="33"></constructor-arg>
+	</bean>
+
+	<bean id="collectionBean" p:saramList-ref="saramL" class="org.comstudy21.saram.di.CollectionBean">
+	</bean>
+	
+	<util:list id="saramL" value-type="org.comstudy21.saram.di.CollectionBean" >
+		<ref bean="saram1"></ref>
+		<ref bean="saram2"></ref>
+		<ref bean="saram3"></ref>
+	</util:list>
+	
+	<bean id="collectionBean2" class="org.comstudy21.saram.di.CollectionBean">
+		<property name="saramList">
+			<list>
+				<ref bean="saram1"></ref>
+				<ref bean="saram2"></ref>
+				<ref bean="saram3"></ref>
+			</list>
+		</property>
+	</bean>
+
+</beans>
