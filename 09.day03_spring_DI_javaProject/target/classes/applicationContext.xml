@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="rambo" class="org.comstudy21.di.saram.Rambo">
+	<property name="weapon" ref="gun"></property>
+	</bean>
+
+	<bean id="leesoryong" class="org.comstudy21.di.saram.LeeSoryong">
+		<property name="weapon" ref="sword"></property>
+	</bean>
+	<bean id="gun" class="org.comstudy21.di.saram.weapon.Gun"></bean>
+	<bean id="sword" class="org.comstudy21.di.saram.weapon.Sword"></bean>
+</beans>
