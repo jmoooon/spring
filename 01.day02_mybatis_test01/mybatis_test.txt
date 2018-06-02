@@ -1,0 +1,18 @@
+[[ 자바 프로젝트에 mybatis 설정 ]]
+
+1. 자바프로젝트 준비
+	- day02_mybatis_test01
+	1) 패키지 생성: org.mybatis.example
+	
+2. 라이브러리를 준비한다.
+	1) mvnrepository.com  접속
+		- mybatis-3.3.1.jar 라이브러리
+		
+3. DB 구동
+	1) H2 DB 사용
+		- SARAM 테이블 생성
+		- ID, NAME, AGE 컬럼 생성
+		
+4. mybatis-config.xml 파일 생성
+	1) 구글에서 "마이바티스" 검색 -> 한글문서 참조
+	2) 프로젝트에 package 생성 후 mybatis-config.xml 배치. 패키지 없이 배치하면 파일을 찾지 못한다. 
