@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="00.day03_spring_users_javaProject">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <property name="context-root" value="00.day03_spring_users_javaProject"/>
+        <property name="java-output-path" value="/00.day03_spring_users_javaProject/bin"/>
+    </wb-module>
+</project-modules>

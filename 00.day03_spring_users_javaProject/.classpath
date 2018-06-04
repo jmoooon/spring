@@ -2,16 +2,16 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
-	<classpathentry kind="lib" path="D:/SpringFramework_JungJimi_20180519/download/h2/bin/h2-1.4.197.jar"/>
-	<classpathentry kind="lib" path="D:/SpringFramework_JungJimi_20180519/mvn_repo/commons-logging-1.2.jar"/>
-	<classpathentry kind="lib" path="D:/SpringFramework_JungJimi_20180519/mvn_repo/lombok.jar"/>
-	<classpathentry kind="lib" path="D:/SpringFramework_JungJimi_20180519/mvn_repo/mybatis-3.3.1.jar"/>
-	<classpathentry kind="lib" path="D:/SpringFramework_JungJimi_20180519/mvn_repo/spring-aop-4.3.17.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/SpringFramework_JungJimi_20180519/mvn_repo/spring-beans-4.3.17.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/SpringFramework_JungJimi_20180519/mvn_repo/spring-context-4.3.17.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/SpringFramework_JungJimi_20180519/mvn_repo/spring-core-4.3.17.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/SpringFramework_JungJimi_20180519/mvn_repo/spring-expression-4.3.17.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/SpringFramework_JungJimi_20180519/mvn_repo/alternateLocation/spring-webmvc-4.3.17.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/SpringFramework_JungJimi_20180519/mvn_repo/alternateLocation/spring-web-4.3.17.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/mvn_repo/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="E:/mvn_repo/lombok-1.16.22.jar"/>
+	<classpathentry kind="lib" path="E:/mvn_repo/mybatis-3.3.1.jar"/>
+	<classpathentry kind="lib" path="E:/mvn_repo/spring-aop-4.3.17.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/mvn_repo/spring-beans-4.3.17.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/mvn_repo/spring-context-4.3.17.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/mvn_repo/spring-core-4.3.17.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/mvn_repo/spring-expression-4.3.17.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/mvn_repo/spring-web-4.3.17.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/mvn_repo/spring-webmvc-4.3.17.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/mvn_repo/h2-1.4.197.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
