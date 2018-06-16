@@ -1,0 +1,13 @@
+강사: 김범준
+이메일: yugsub@nate.com
+카카오톡: yugsub@nate.com
+강사IP: 192.168.0.17
+
+학습까페: cafe.naver.com/comstudy21
+--> 회원가입 후 등업
+
+1. 자바: JDK1.8 버젼 설치
+2. 이클립스: neon (4.6)
+3. Tomcat: 1.8
+4. STS: Based on Eclipse 4.6.3 on STS 3.8.4.RELEASE  --> 압축 풀고 sts-3.8.4.RELEASE 폴더 밑의 STS.exe 실행
+5. H2DB: Version 1.4.197 Platform-Independent Zip  --> 압축 풀고 bin 폴더 밑의 h2w.bat 실행한다.
