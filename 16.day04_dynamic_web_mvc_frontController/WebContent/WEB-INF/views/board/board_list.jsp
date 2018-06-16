@@ -9,9 +9,9 @@
 <body>
 <h1>게시판 목록</h1>
 <ul>
-	<il><a href="board/insert.do">게시판등록</a></il>
-	<il><a href="board/detail.do">게시판보기</a></il>
-	<il><a href="">홈페이지</a></il>
+	<il><a href="insert.do">게시판등록</a></il>
+	<il><a href="detail.do">게시판보기</a></il>
+	<il><a href="../">홈페이지</a></il>
 </ul>
 </body>
 </html>
