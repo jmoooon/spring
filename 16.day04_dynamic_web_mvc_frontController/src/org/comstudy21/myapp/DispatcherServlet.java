@@ -55,11 +55,14 @@ public class DispatcherServlet extends HttpServlet {
 		}
 		else{
 			String path = reqUri.substring(ctxPath.length(), reqUri.lastIndexOf("."));
+			System.out.println(path);
+			System.out.println(path.substring(1, 4).compareTo("user"));
+			
 			Controller boardController = handlerMapping.getController(path);
-			req.setAttribute("path", path.replace(ctxPath, ""));
+			//req.setAttribute("path", path.replace(ctxPath, ""));
+			req.setAttribute("path", path);
 			System.out.println(path);
 			modelAndView = boardController.requestMap(req, resp);
-			
 		}
 		
 		modelAndView.forward(req, resp);

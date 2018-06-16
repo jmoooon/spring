@@ -13,6 +13,7 @@ public class HandlerMapping {
 	
 	public Controller getController(String path){
 		String key = path.substring(0, path.lastIndexOf("/"));
+		System.out.println(key + "============");
 		return map.get(key);
 	}
 }
